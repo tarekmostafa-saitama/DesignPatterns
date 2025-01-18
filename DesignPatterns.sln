@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{61D403A5-60C1-44AA-80B8-4FE84D610C51}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "src\BehavioralPatterns\ObserverPattern\ObserverPattern.csproj", "{3546FB3B-82FE-4583-BE93-4D9697F87E6D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "src\BehavioralPatterns\StrategyPattern\StrategyPattern.csproj", "{344EA4DE-53C2-44A5-A1B3-5FEED67EA763}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{1E4A12E2-9E11-4575-BEDB-0FB9BDA71C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "src\StructuralPatterns\DecoratorPattern\DecoratorPattern.csproj", "{2E26FF23-ED6F-465B-91B5-2DB13BADA60F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{344EA4DE-53C2-44A5-A1B3-5FEED67EA763}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{344EA4DE-53C2-44A5-A1B3-5FEED67EA763}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{344EA4DE-53C2-44A5-A1B3-5FEED67EA763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E26FF23-ED6F-465B-91B5-2DB13BADA60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E26FF23-ED6F-465B-91B5-2DB13BADA60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E26FF23-ED6F-465B-91B5-2DB13BADA60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E26FF23-ED6F-465B-91B5-2DB13BADA60F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,5 +41,7 @@ Global
 		{558AAA69-501A-4283-A93F-4214D388657F} = {61D403A5-60C1-44AA-80B8-4FE84D610C51}
 		{3546FB3B-82FE-4583-BE93-4D9697F87E6D} = {558AAA69-501A-4283-A93F-4214D388657F}
 		{344EA4DE-53C2-44A5-A1B3-5FEED67EA763} = {558AAA69-501A-4283-A93F-4214D388657F}
+		{1E4A12E2-9E11-4575-BEDB-0FB9BDA71C80} = {61D403A5-60C1-44AA-80B8-4FE84D610C51}
+		{2E26FF23-ED6F-465B-91B5-2DB13BADA60F} = {1E4A12E2-9E11-4575-BEDB-0FB9BDA71C80}
 	EndGlobalSection
 EndGlobal
