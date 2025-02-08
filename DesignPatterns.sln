@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "src\Creati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "src\CreationalPatterns\AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{F6605348-FED0-42A7-866D-0FCD018CA276}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "src\CreationalPatterns\SingletonPattern\SingletonPattern.csproj", "{6E3538AD-2F89-43DB-BB1A-B5B417D01AEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{F6605348-FED0-42A7-866D-0FCD018CA276}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6605348-FED0-42A7-866D-0FCD018CA276}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6605348-FED0-42A7-866D-0FCD018CA276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3538AD-2F89-43DB-BB1A-B5B417D01AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3538AD-2F89-43DB-BB1A-B5B417D01AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3538AD-2F89-43DB-BB1A-B5B417D01AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3538AD-2F89-43DB-BB1A-B5B417D01AEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,5 +66,6 @@ Global
 		{06BDA32A-DACB-4DD4-B8A2-02E13BD01C11} = {61D403A5-60C1-44AA-80B8-4FE84D610C51}
 		{1A341E10-2CC2-4F7D-A8FA-0BBF913688FF} = {06BDA32A-DACB-4DD4-B8A2-02E13BD01C11}
 		{F6605348-FED0-42A7-866D-0FCD018CA276} = {06BDA32A-DACB-4DD4-B8A2-02E13BD01C11}
+		{6E3538AD-2F89-43DB-BB1A-B5B417D01AEA} = {06BDA32A-DACB-4DD4-B8A2-02E13BD01C11}
 	EndGlobalSection
 EndGlobal
